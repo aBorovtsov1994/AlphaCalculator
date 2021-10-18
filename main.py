@@ -1,16 +1,17 @@
-# This is a sample Python script.
+"""
+This calculator is going to take a bill and split it among a set amount of users (user-defined). It will calculate the
+ratio each person owes and then use those ratios to calculate how much of the tips/fees each user owes and adds that
+to the total they are owed.
+"""
+num_of_users = 0
+bill_subtotal = 0
+tips_amount = 0
+fees_amount = 0
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+print("Hello and welcome to my Alpha calculator! Please go ahead and enter the subtotal!")
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
 
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    print("The main program has run!")
