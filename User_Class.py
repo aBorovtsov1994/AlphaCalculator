@@ -14,4 +14,4 @@ class User():
         result = 0.0
         for item in self.ratio.values():
             result += item
-        return result / len(self.ratio.values())se
+        return result / len(self.ratio.values())
