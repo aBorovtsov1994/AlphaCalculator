@@ -15,3 +15,7 @@ class User():
         for item in self.ratio.values():
             result += item
         return result / len(self.ratio.values())
+
+    def list_items(self):
+        for item in self.ratio.keys():
+            print(item)
