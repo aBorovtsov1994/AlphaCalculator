@@ -8,16 +8,18 @@ bill_subtotal = 0
 tips_amount = 0
 fees_amount = 0
 
-print("Hello and welcome to my Alpha calculator! Please go ahead and enter the subtotal!")
 
-while True:
-    num_of_users = input("Please enter the amount of users for this bill.\n")
-    if num_of_users.isnumeric():
-        break
-    else:
-        print("Please enter a valid number")
-print(num_of_users) ## check to see if this works
+def check_input_int(user_input):
+    while True:
+        if user_input.isnumeric():
+            return user_input
+        else:
+            print("Please enter a valid number")
 
+
+num_of_users = check_input_int("Hello and welcome to my Alpha calculator! Please go ahead and enter the subtotal!")
+
+check_input(input("Please enter the amount of users for this bill.\n"))
 
 if __name__ == '__main__':
     print("The main program has run!")
