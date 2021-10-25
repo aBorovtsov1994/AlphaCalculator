@@ -11,7 +11,7 @@ fees_amount = 0
 print("Hello and welcome to my Alpha calculator! Please go ahead and enter the subtotal!")
 
 while True:
-    num_of_users = input("Please enter the amount of users for this bill.")
+    num_of_users = input("Please enter the amount of users for this bill.\n")
     if num_of_users.isnumeric():
         break
     else:
