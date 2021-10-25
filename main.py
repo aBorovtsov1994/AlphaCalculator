@@ -20,7 +20,7 @@ def check_input_int(inquiry_string):
 
 
 print("Hello and welcome to my Alpha calculator! Please go ahead and enter the subtotal!")
-num_of_users = check_input_int()
+num_of_users = check_input_int(num_of_users_str)
 
 if __name__ == '__main__':
     print("The main program has run!")
