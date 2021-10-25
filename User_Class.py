@@ -9,3 +9,9 @@ class User():
     def __init(self, items):
         self.items = items
         self.ratio = 0.0
+
+    def calc_ratio(self):
+        result = 0.0
+        for item in items.values():
+            result += item
+        return result /= count(items.values())
