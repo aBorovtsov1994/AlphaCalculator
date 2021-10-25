@@ -17,9 +17,9 @@ def check_input_int(user_input):
             print("Please enter a valid number")
 
 
-num_of_users = check_input_int("Hello and welcome to my Alpha calculator! Please go ahead and enter the subtotal!")
+print("Hello and welcome to my Alpha calculator! Please go ahead and enter the subtotal!")
 
-check_input(input("Please enter the amount of users for this bill.\n"))
+num_of_users = check_input_int(input("Please enter the amount of users for this bill.\n"))
 
 if __name__ == '__main__':
     print("The main program has run!")
