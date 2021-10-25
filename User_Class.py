@@ -12,6 +12,6 @@ class User():
 
     def calc_ratio(self):
         result = 0.0
-        for item in items.values():
+        for item in self.ratio.values():
             result += item
-        return result /= count(items.values())
+        return result / len(self.ratio.values())se
